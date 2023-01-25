@@ -41,13 +41,8 @@ public class Main {
         }
         int currentYear = LocalDate.now().getYear();
         String os = typeOs == 0 ? "IOS" : "Android";
-        String textMessage = String.format(" Установите облегченную версию приложения для %s по ссылке.", os);
         if (clientDeviceYear < currentYear) {
-            if (typeOs == 0) {
-                System.out.println(textMessage);
-            } else {
-                System.out.println(textMessage);
-            }
+            System.out.printf(" Установите облегченную версию приложения для %s по ссылке.\n", os);
         } else {
             System.out.printf(" Установите обычную версию приложения для %s по ссылке.\n", os);
         }
