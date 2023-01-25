@@ -51,7 +51,7 @@ public class Main {
     /**
      * Метод проверяет возможность доставки от офиса до клиента, учитывая расстояние
      *
-     * @param deliveryDistance Дистанция до клиенты
+     * @param deliveryDistance Дистанция до клиента
      */
     public static void calculateDeliveryDays(int deliveryDistance) {
         System.out.println("Task3:");
