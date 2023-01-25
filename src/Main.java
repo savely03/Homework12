@@ -20,11 +20,11 @@ public class Main {
             if (year % 100 != 0 || (year % 100 == 0 && year % 400 == 0)) {
                 isLeapYear = true;
             }
-            if (isLeapYear) {
-                System.out.println(" " + year + " год - високосный год.");
-            } else {
-                System.out.println(" " + year + " год - невисокосный год.");
-            }
+        }
+        if (isLeapYear) {
+            System.out.println(" " + year + " год - високосный год.");
+        } else {
+            System.out.println(" " + year + " год - невисокосный год.");
         }
     }
 
